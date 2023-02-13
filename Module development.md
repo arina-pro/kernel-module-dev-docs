@@ -75,4 +75,4 @@ To see the kernel buffer and the printed `Hello world` run
 sudo dmesg
 ```
 You should see the messages at the bottom
-![Alt text](Screen Shot 2023-02-13 at 9.26.42 AM.png)
+![Alt text](Screen Shot 2023-02-13 at 9.26.42 AM.png?raw=true)
