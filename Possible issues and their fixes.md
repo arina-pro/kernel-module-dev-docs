@@ -16,7 +16,7 @@ On boot, Ubuntu crashed: missing modules, root UUID=... not found (`cat /proc/mo
 ### Issue
 Disk space error. Did you expand the hard disk of VM? Re-partitioned?
 ### Fix
-Follow [this answer][https://unix.stackexchange.com/a/610154], could be also done while experiencing booting error (press `Ctrl+Alt+F3` to boot login).
+Follow [this answer](https://unix.stackexchange.com/a/610154), could be also done while experiencing booting error (press `Ctrl+Alt+F3` to boot login).
 
 ## `Exec format error
 ### Issue

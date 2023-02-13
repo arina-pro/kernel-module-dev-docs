@@ -11,7 +11,7 @@ Processor cores: the more the better
 ```
 
 ## 1. Install the Linux kernel (release for Rust)
-1) Check the latest release of Linux kernel from [Rust-for-Linux repository][https://github.com/Rust-for-Linux/linux/tags] and get the kernel tarball in a directory where you have permissions (`linux-rust-<..>.tar.gz`)
+1) Check the latest release of Linux kernel from [Rust-for-Linux repository](https://github.com/Rust-for-Linux/linux/tags) and get the kernel tarball in a directory where you have permissions (`linux-rust-<..>.tar.gz`)
 2) Untar the source code:
 ```
 tar xf linux-rust-<..>
@@ -21,7 +21,7 @@ tar xf linux-rust-<..>
 sudo apt-get update && sudo apt-get -y install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc curl flex cmake bison pahole jfsutils reiserfsprogs xfsprogs btrfs-progs quota nfs-common pkg-config fuse libelf-dev lld llvm
 ```
 ## 3. Install Rust
-Run these steps or follow [the official guide from Rust][https://www.rust-lang.org/tools/install] and the steps of [Rust-for-Linux quick start][https://docs.kernel.org/rust/quick-start.html#requirements-building].
+Run these steps or follow [the official guide from Rust](https://www.rust-lang.org/tools/install) and the steps of [Rust-for-Linux quick start](https://docs.kernel.org/rust/quick-start.html#requirements-building).
 1) Get `rustup`
 ```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
