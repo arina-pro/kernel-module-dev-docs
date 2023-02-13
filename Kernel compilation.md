@@ -24,24 +24,29 @@ CONFIG_RUST=y`
 ```
 
 ## 2. Build the kernel
-
+To check Rust is available
 ```
 // Run from inside linux-rust-<..> folder
 make LLVM=1 -j$(nproc) rustavailable
 ```
-
+To build Rust analyzer
 ```
 // Run from inside linux-rust-<..> folder
 make LLVM=1 -j$(nproc) rust-analyzer
 ```
+To `make` the kernel
+```
+make LLVM=1 -j$(nproc)
+```
 By default, `make` or `make all` build these 3 targets: `vmlinux` (bare kernel), `modules` (built-in) and compressed kernel image (`bzImage`).
 
 ## 3. Build and install the modules
+Build modules
 ```
 // Run from inside linux-rust-<..> folder
 make LLVM=1 -j$(nproc) modules
 ```
-
+Install them
 ```
 // Run from inside linux-rust-<..> folder
 sudo make LLVM=1 -j$(nproc) modules_install
