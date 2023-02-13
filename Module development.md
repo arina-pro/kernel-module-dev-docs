@@ -75,4 +75,5 @@ To see the kernel buffer and the printed `Hello world` run
 sudo dmesg
 ```
 You should see the messages at the bottom
-![Alt text](Screen Shot 2023-02-13 at 9.26.42 AM.png?raw=true)
+
+![dmesg Hello world]([Screen Shot 2023-02-13 at 9.26.42 AM.png?raw=true](https://github.com/arina-pro/kernel-module-dev-docs/blob/main/Screen%20Shot%202023-02-13%20at%209.26.42%20AM.png))
