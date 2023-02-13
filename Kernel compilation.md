@@ -18,9 +18,9 @@ Run following command
 // Run from inside linux-rust-<..> folder
 make LLVM=1 -j$(nproc) menuconfig
 ```
-and enable `Rust support` option (you can search by typing `/`). If you do not find it, check which requirements are not met.
+and enable `Rust support` option (you can search by typing `/`). If you do not find it, check which requirements are not met (e.g. `!MODVERSIONS=y`, etc.).
 ```
-CONFIG_RUST=y`
+CONFIG_RUST=y
 ```
 
 ## 2. Build the kernel
